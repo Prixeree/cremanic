@@ -31,6 +31,7 @@
 - 🛡️ **Complete Hardware Sovereignty**: Synthesis runs on your device's CPU/GPU via WebAssembly (SIMD + multi-threading) and WebGPU through `onnxruntime-web`.
 - 🎛️ **Device-Capability Tiering & Auto-Fallback**: Intelligent hardware profiling, probe generation benchmarks, and automatic graceful fallback to Lite mode if resource limits are exceeded.
 - 🎙️ **Acoustic Transcriptor (Speech-to-Text)**: On-device speech recognition via Whisper Web & native Web Speech API. Supports live microphone dictation, multi-format audio uploads (WAV, MP3, M4A, WebM), timestamped segment generation, subtitle export (.SRT, .VTT, .TXT, .JSON), and one-click synthesis bridging.
+- 🔥 **Subtitle Burner & Style Library (12 Presets)**: 100% in-browser HTML5 Canvas compositor and MediaRecorder video burner hardcoding viral captions into MP4/WebM with active word bouncing, spring tilt, and karaoke progressive sweep. Direct export to styled `.ASS` and `.SRT`.
 - 📦 **Compact INT8 Footprint**: Total runtime download of only **~231.3 MB**, cached permanently offline via `CacheStorage`.
 
 ---
